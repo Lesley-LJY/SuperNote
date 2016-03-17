@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="-8dp"
+        android:gravity="center" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/login0" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:layout_marginBottom="3dp"
+            android:background="#ffffff"
+            android:hint="请输入您的用户名"
+            android:singleLine="true" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/userpwd"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:background="#ffffff"
+            android:hint="请输入密码"
+            android:singleLine="true" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/start_btn"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:text="登录" />
+
+        <!--<Button-->
+        <!--android:id="@+id/start_btn"-->
+        <!--android:layout_width="160dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@drawable/join_in"-->
+        <!--android:text="进入 >>"/>-->
+
+        <Button
+            android:id="@+id/button_zc"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:text="注册" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sharepic"
+    tools:context="com.lijunyan.tjut.text_2.CameraNext">
+
+    <!--<ImageView-->
+    <!--android:id="@+id/classtable"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:src="@drawable/classtable"-->
+    <!-- -->
+    <!--android:layout_weight="1" />-->
+
+</LinearLayout>

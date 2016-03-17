@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">学霸笔记</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">加油！</string>
+    <string name="title_activity_image_preview_aty">ImagePreviewAty</string>
+    <string name="title_activity_camera_next">板书拍照</string>
+    <string name="title_activity_voice">语音笔记</string>
+    <string name="title_activity_note">文字笔记</string>
+    <string name="title_activity_blackboard">我的课表</string>
+    <string name="title_activity_clock">温馨提醒</string>
+    <string name="title_activity_search">知识宝库</string>
+    <string name="title_activity_share">一键分享</string>
+    <string name="title_activity_other">珍典宝鉴</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_guide">Guide</string>
+    <string name="title_activity_welcome_aty">WelcomeAty</string>
+</resources>
